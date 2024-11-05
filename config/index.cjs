@@ -5,39 +5,23 @@
  * 如若想使用更多功能，请查考文档中的 【3. config参数说明】 
  * 自行添加属性，以支持更多个性化功能
  */
-const USER_CONFIG = {
-
- 
-  APP_ID: 'wx54b36c9b1446ea75',
-
-  // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '8906eb4dec542970ab1150e2b3aa67ae',
-
-  PROVINCE: '江苏',
-  CITY: '南通',
-
-  USERS: [
-    {
-      // 想要发送的人的名字
-      name: '宝贝',
-      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'ouWhA6xwhouEj-W7zSg661S_3V6Q',
-      // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'G-7IFh5n85ev0ERiEl5ImSxtKet_yBahbuCluuD_WK4',
-      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '05-27',
-      festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {
-          type: '*生日', name: '宝贝', year: '1998', date: '05-27',
-        },
-        {
-          type: '节日', name: '相识纪念日', year: '2024', date: '10-11',
-        },
-      ],
-    },
-  ],
-
+const USER_CONFIG = 
+{"APP_ID":"wx54b36c9b1446ea75"
+    ,"APP_SECRET":"8906eb4dec542970ab1150e2b3aa67ae",
+   "IS_SHOW_COLOR":true,"
+    CALLBACK_TEMPLATE_ID":"G-7IFh5n85ev0ERiEl5ImSxtKet_yBahbuCluuD_WK4",
+ "CALLBACK_USERS":[{"name":"自己","id":""}],
+ "USERS":[{"name":"友友","
+  id":"8906eb4dec542970ab1150e2b3aa67ae",
+           "useTemplateId":"G-7IFh5n85ev0ERiEl5ImSxtKet_yBahbuCluuD_WK4",
+           "province":"江苏","city":"南通",
+           "horoscopeDate":"05-27",
+           "horoscopeDateType":"今日",
+           "openUrl":"https://shuangxunian.github.io/",
+           "festivals":[{"type":"生日",
+                         "name":"友友","date":"05-27","year":"2024"}],
+           "customizedDateList":[{"date":"NaN-NaN-NaN"}]}],
+ "SWITCH":{"weather":true,"holidaytts":true,"CIBA":true,"oneTalk":true,"earthyLoveWords":true,"momentCopyrighting":true,"poisonChickenSoup":false,"poetry":false,"horoscope":false,"birthdayMessage":true}}
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   CALLBACK_TEMPLATE_ID: 'sY8cc0ABQC78xM5qtHV1PPzEy7WEOR_wVUwXFl2EP64',
