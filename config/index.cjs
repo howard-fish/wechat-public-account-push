@@ -6,23 +6,7 @@
  * 自行添加属性，以支持更多个性化功能
  */
 const USER_CONFIG = 
-{"APP_ID":"wx54b36c9b1446ea75"
-    ,"APP_SECRET":"8906eb4dec542970ab1150e2b3aa67ae",
-   "IS_SHOW_COLOR":true,"
-    "CALLBACK_TEMPLATE_ID":"G-7IFh5n85ev0ERiEl5ImSxtKet_yBahbuCluuD_WK4",
- "CALLBACK_USERS":[{"name":"自己","id":""}],
- "USERS":[{"name":"友友",
-    "id":"8906eb4dec542970ab1150e2b3aa67ae",
-           "useTemplateId":"G-7IFh5n85ev0ERiEl5ImSxtKet_yBahbuCluuD_WK4",
-           "province":"江苏","city":"南通",
-           "horoscopeDate":"05-27",
-           "horoscopeDateType":"今日",
-           "openUrl":"https://shuangxunian.github.io/",
-           "festivals":[{"type":"生日",
-                         "name":"友友","date":"05-27","year":"2024"}],
-           "customizedDateList":[{"date":"NaN-NaN-NaN"}]}],
- "SWITCH":{"weather":true,"holidaytts":true,"CIBA":true,"oneTalk":true,"earthyLoveWords":true,"momentCopyrighting":true,"poisonChickenSoup":false,"poetry":false,"horoscope":false,"birthdayMessage":true}}
-
+{"APP_ID":"wx54b36c9b1446ea75","APP_SECRET":"8906eb4dec542970ab1150e2b3aa67ae","IS_SHOW_COLOR":true,"CALLBACK_TEMPLATE_ID":"G-7IFh5n85ev0ERiEl5ImSxtKet_yBahbuCluuD_WK4","CALLBACK_USERS":[{"name":"自己","id":""}],"USERS":[{"name":"友友","id":"8906eb4dec542970ab1150e2b3aa67ae","useTemplateId":"G-7IFh5n85ev0ERiEl5ImSxtKet_yBahbuCluuD_WK4","province":"江苏","city":"南通","horoscopeDate":"05-27","horoscopeDateType":"今日","openUrl":"https://shuangxunian.github.io/","festivals":[{"type":"生日","name":"友友","date":"05-27","year":"2024"}],"customizedDateList":[{"date":"NaN-NaN-NaN"}]}],"SWITCH":{"weather":true,"holidaytts":true,"CIBA":true,"oneTalk":true,"earthyLoveWords":true,"momentCopyrighting":true,"poisonChickenSoup":false,"poetry":false,"horoscope":false,"birthdayMessage":true}}
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   CALLBACK_TEMPLATE_ID: 'sY8cc0ABQC78xM5qtHV1PPzEy7WEOR_wVUwXFl2EP64',
 
