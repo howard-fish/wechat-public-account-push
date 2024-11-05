@@ -9,10 +9,10 @@ const USER_CONFIG =
 {"APP_ID":"wx54b36c9b1446ea75"
     ,"APP_SECRET":"8906eb4dec542970ab1150e2b3aa67ae",
    "IS_SHOW_COLOR":true,"
-    CALLBACK_TEMPLATE_ID":"G-7IFh5n85ev0ERiEl5ImSxtKet_yBahbuCluuD_WK4",
+    "CALLBACK_TEMPLATE_ID":"G-7IFh5n85ev0ERiEl5ImSxtKet_yBahbuCluuD_WK4",
  "CALLBACK_USERS":[{"name":"自己","id":""}],
- "USERS":[{"name":"友友","
-  id":"8906eb4dec542970ab1150e2b3aa67ae",
+ "USERS":[{"name":"友友",
+    "id":"8906eb4dec542970ab1150e2b3aa67ae",
            "useTemplateId":"G-7IFh5n85ev0ERiEl5ImSxtKet_yBahbuCluuD_WK4",
            "province":"江苏","city":"南通",
            "horoscopeDate":"05-27",
